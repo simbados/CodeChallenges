@@ -1,1 +1,1 @@
-These are all challenges from [codewars.com]
+These are all challenges from [codewars.com](codewars.com)
