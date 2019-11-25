@@ -26,7 +26,7 @@ public class Disemvowel {
     }
 
     public static void main(String[] args) {
-        System.out.println(Troll.disemvowel("This is a test"));
+        System.out.println(Disemvowel.disemvowel("This is a test"));
     }
 }
 
