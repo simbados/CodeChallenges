@@ -14,9 +14,9 @@ class LongestConsec {
             toCompare = "";
             for(int j = 0; j < k; j++) {
                 toCompare += strarr[i+j];
-                if((j == k-1) && (toCompare.length() > longestConsecutive.length())) {
-                    longestConsecutive = toCompare;
-                }
+            }
+            if (toCompare.length() > longestConsecutive.length()) {
+                longestConsecutive = toCompare;
             }
         }
         return longestConsecutive;
