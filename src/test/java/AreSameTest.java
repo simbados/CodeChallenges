@@ -9,4 +9,11 @@ public class AreSameTest {
             int[] b = new int[]{121, 14641, 20736, 361, 25921, 361, 20736, 361};
             assertEquals(true, ASquareIsB.comp(a, b));
         }
+
+        @Test
+        public void shoud_return_false_when_a_is_empty() {
+            int[] a = new int[]{};
+            int[] b = new int[]{12, 13, 15, 16};
+            assertEquals(false, ASquareIsB.comp(a, b));
+        }
 }
