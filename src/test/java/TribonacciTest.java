@@ -34,4 +34,10 @@ public class TribonacciTest {
         double[] expected = new double[]{1, 1, 1};
         assertArrayEquals(expected, Xbonacci.tribonacci(new double[]{1, 1, 1}, 3));
     }
+
+    @Test
+    public void should_return_valid_array_when_n_4() {
+        double[] expected = new double[]{1, 1, 1, 3};
+        assertArrayEquals(expected, Xbonacci.tribonacci(new double[]{1, 1, 1}, 4));
+    }
 }
