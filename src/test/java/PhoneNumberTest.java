@@ -15,7 +15,7 @@ public class PhoneNumberTest {
     }
 
     @Test
-    public void should_return_empty_string_when_number_in_array_negativ() {
+    public void should_return_empty_string_when_number_in_array_is_negativ() {
         assertEquals("", PhoneNumber.createPhoneNumber(new int[]{1, 2, -1, 4, 5, 6, 7, 8, 9, 0}));
     }
 
